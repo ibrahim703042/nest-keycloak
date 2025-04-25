@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+package package.fiscalYear;
+
+service FiscalYearService {
+  rpc GetFiscalYear (FiscalYearRequest) returns (FiscalYearResponse) {};
+  rpc IsDateWithinFiscalYear (IsDateWithinFiscalYearRequest) returns (IsDateWithinFiscalYearResponse) {};
+}
+
+message FiscalYearRequest {
+  string id = 1;
+}
+
+message FiscalYearResponse {
+  string id = 1;
+  string designation = 2;
+  string startDate = 3;
+  string endDate = 4;
+}
+
+message IsDateWithinFiscalYearRequest {
+  string id = 1; 
+  string date = 2; 
+}
+
+message IsDateWithinFiscalYearResponse {
+  bool isWithin = 1;
+}

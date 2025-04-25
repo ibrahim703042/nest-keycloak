@@ -1,0 +1,26 @@
+{
+  "ENTITY": {
+    "SOCIETY": "société",
+    "USER": "Utilisateur",
+    "ROLE": "Rôle",
+    "GROUP": "Groupe",
+    "CLIENT": "Client",
+    "FISCAL_YEAR": "Exercice fiscal",
+    "FISCAL_YEAR_PERIOD": "Période de l'exercice fiscal"
+  },
+
+  "FIELD": {
+    "FILE": "fichier",
+    "nif": "NIF",
+    "tva": "TVA",
+    "rc": "Registre du commerce",
+    "website": "site web",
+    "username": "nom d'utilisateur",
+    "designation": "désignation",
+    "name": "nom",
+    "email": "email",
+    "phone": "numéro de téléphone",
+    "date": "date",
+    "time": "heure"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "CRUD": {
+    "CREATE": {
+      "SUCCESS": "{entity} has been successfully created.",
+      "ERROR": "Failed to create {entity}. Please try again.",
+      "UNAUTHORIZED": "You are not authorized to create {entity}.",
+      "VALIDATION_ERROR": "Validation failed while creating {entity}. Please check the input."
+    },
+    "READ": {
+      "SUCCESS": "{entity} data retrieved successfully.",
+      "EMPTY": "No {entity} data available.",
+      "PARTIAL_SUCCESS": "Some {entity} data could not be retrieved.",
+      "ERROR": "An error occurred while fetching {entity} data. Please try again.",
+      "UNAUTHORIZED": "You are not authorized to view {entity} data.",
+      "NOT_FOUND": "{entity} data not found.",
+      "VALIDATION_ERROR": "Invalid request parameters while fetching {entity} data."
+    },
+    "UPDATE": {
+      "SUCCESS": "{entity} has been updated successfully.",
+      "NOT_FOUND": "The {entity} you are trying to update does not exist.",
+      "UNAUTHORIZED": "You are not authorized to update {entity}.",
+      "ERROR": "An error occurred while updating {entity}. Please try again.",
+      "VALIDATION_ERROR": "Validation failed while updating {entity}. Please check the input."
+    },
+    "DELETE": {
+      "SUCCESS": "{entity} has been deleted successfully.",
+      "NOT_FOUND": "The {entity} you are trying to delete does not exist.",
+      "UNAUTHORIZED": "You are not authorized to delete {entity}.",
+      "ERROR": "An error occurred while deleting {entity}. Please try again.",
+      "CONFIRMATION": "Are you sure you want to delete {entity}?"
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "SUCCESS": "You have successfully logged in.",
+      "ERROR": "Login failed. Please check your credentials.",
+      "UNAUTHORIZED": "Invalid credentials. Access denied."
+    },
+    "LOGOUT": {
+      "SUCCESS": "You have successfully logged out.",
+      "ERROR": "An error occurred while logging out. Please try again."
+    },
+    "FORBIDDEN": "You do not have permission to access this resource.",
+    "EXPIRED_TOKEN": "Your session has expired. Please log in again."
+  },
+  "VALIDATION": {
+    "REQUIRED": "{field} is required.",
+    "INVALID": "{field} is invalid.",
+    "MIN_LENGTH": "{field} must be at least {min} characters.",
+    "MAX_LENGTH": "{field} must be at most {max} characters."
+  },
+  "ERRORS": {
+    "GENERAL": "An error occurred. Please try again later.",
+    "INVALID_INPUT": "Invalid input provided. Please check your data.",
+    "INVALID_DATA": "The provided {entity} is invalid. Please check your data.",
+    "INVALID_ID": "Invalid ID format: {id}. Please provide a valid ID.",
+    "NOT_FOUND": "The requested resource was not found.",
+    "NO_DATA": "The requested {entity} was not found.",
+    "UNAUTHORIZED": "You do not have permission to access this resource.",
+    "FORBIDDEN": "Access is forbidden for this operation.",
+    "CONNECTION": "Unable to connect to the server. Please check your network and try again.",
+    "SERVICE_UNAVAILABLE": "The service is temporarily unavailable. Please try again later.",
+    "CONNECTION_RESET": "The connection was reset. Please try again later.",
+    "TIMEOUT": "The request timed out. Please try again.",
+    "SERVER_ERROR": "Internal server error. Please contact support.",
+    "CONFLICT": "'{field}' with value '{value}' already exists.",
+    "VALIDATION_ERROR": {
+      "FIELD": "{field} is invalid.",
+      "MISSING": "{field} is missing.",
+      "FORMAT": "{field} has an incorrect format.",
+      "RANGE": "{field} must be between {min} and {max}.",
+      "DEFAULT": "Validation failed.",
+      "UNEXPECTED": "{message}",
+      "UNEXPECTED_MESSAGE": "An unexpected error occurred: {message}"
+    }
+  },
+  "GENERAL_MESSAGES": {
+    "LOADING": "Loading...",
+    "ACTION_SUCCESS": "Action completed successfully.",
+    "ACTION_ERROR": "An error occurred while performing the action.",
+    "RETRY": "Please try again.",
+    "LOADING_DATA": "Loading {entity} data...",
+    "RETRY_ACTION": "Retry",
+    "REFRESH_DATA": "Refresh data",
+    "ACTION_FAILED": "The action could not be completed.",
+    "NO_RESULTS_FOUND": "No results found."
+  },
+  "KEYCLOAK": {
+    "ROLES": {
+      "ACCESS_DENIED": "Access denied. Required role: {role}.",
+      "MISSING_ROLE": "You do not have the necessary roles to perform this action.",
+      "ASSIGNED": "The role has been assigned to {entity}.",
+      "UNASSIGNED": "The role has been removed from {entity}."
+    },
+    "PERMISSIONS": {
+      "ASSIGNED": "Grant a specific permission to a {entity}.",
+      "REVOKE": "Revoke a specific permission from a {entity}."
+    },
+    "USERS": {
+      "DESACTIVE": "Deactivate a user account instead of deleting it",
+      "PASSWORD": "Password changed successfully.",
+      "ACTIVE": "Reactivate a previously deactivated user",
+      "RESET": "Reset a user's password",
+      "ASSIGNED": "User(s) has/have been assigned to {entity}.",
+      "UNASSIGNED": "User(s) has/have been removed from {entity}."
+    }
+  }
+}

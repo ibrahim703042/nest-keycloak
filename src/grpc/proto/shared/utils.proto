@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package package.util;
+
+enum ConsumptionMode {
+  SURPLACE = 0;
+  LIVRAISON = 1;
+  EMPORTER = 2;
+}

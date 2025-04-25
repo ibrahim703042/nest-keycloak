@@ -1,0 +1,26 @@
+{
+  "ENTITY": {
+    "SOCIETY": "society",
+    "USER": "User",
+    "ROLE": "Role",
+    "GROUP": "Group",
+    "CLIENT": "Client",
+    "FISCAL_YEAR": "Fiscal year",
+    "FISCAL_YEAR_PERIOD": "Fiscal year period"
+  },
+
+  "FIELD": {
+    "FILE": "file",
+    "nif": "TIN",
+    "tva": "VAT",
+    "rc": "Commercial Register",
+    "website": "website",
+    "username": "username",
+    "designation": "designation",
+    "name": "name",
+    "email": "email",
+    "phone": "phone number",
+    "date": "date",
+    "time": "time"
+  }
+}

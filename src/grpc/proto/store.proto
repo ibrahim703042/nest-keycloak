@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package package.store;
+
+service StoreService {
+    rpc GetStoreById(StoreIdRequest) returns (StoreResponse) {};
+    rpc GetStoresByStatus(StoreStatusRequest) returns (StoreListResponse) {}; 
+    rpc GetStores(StoreIdsRequest) returns (StoreListResponse);
+}
+
+message StoreIdRequest {
+    string id = 1;
+}
+
+message StoreIdsRequest {
+    repeated string ids = 1;
+}
+
+message StoreStatusRequest {
+    bool status = 1;
+}
+
+message StoreDto {
+    string id = 1;
+    string designation = 2;
+    bool status = 3;
+    string description = 4;
+}
+
+message StoreResponse {
+    StoreDto store = 1;
+}
+
+message StoreListResponse {
+    repeated StoreDto stores = 1;
+}

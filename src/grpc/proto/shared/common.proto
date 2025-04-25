@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package package.common;
+
+import "vat.proto";
+import "tarification.proto";
+  
+  message NestedUnite {
+    string unite = 1;
+    double cond = 2;
+    double prixCond = 3;
+  }
+  
+  message NestedCatalog {
+    string id = 1;
+    string image = 2;
+  }
+  
+  message NestedTarification {
+    package.tarification.TarificationDto tarificationId = 1;
+    bool caisse = 2;
+    package.tva.TvaDto tvaId = 3;
+    double prixTTC = 4;
+    double prixHT = 5;
+  }
+  
+  message NestedFabrication {
+    string fabricationId = 1;
+    double quantite = 2;
+    double part = 3;
+    bool stockProduitArticle = 4;
+  }
+
+  enum CategorieType {
+    ARTICLE = 0;
+    ACCOMPAGNEMENT = 1;
+    MENU = 2;
+    FABRICATION = 3;
+  }
+  

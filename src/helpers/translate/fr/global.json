@@ -1,0 +1,80 @@
+{
+  "CRUD": {
+    "CREATE": {
+      "SUCCESS": "{entity} a été créé(e) avec succès.",
+      "ERROR": "Échec de la création de {entity}.",
+      "ERROR_EXISTS": "{entity} existe déjà.",
+      "ERROR_SERVER": "Une erreur s'est produite lors de la création de {entity}.",
+      "ERROR_VALIDATION": "Échec de la validation lors de la création de {entity}. Veuillez vérifier les informations fournies."
+    },
+    "READ": {
+      "SUCCESS": "Les données de {entity} ont été récupérées avec succès.",
+      "ERROR": "Une erreur s'est produite lors de la récupération des données de {entity}.",
+      "ERROR_PARTIAL": "Certaines données de {entity} n'ont pas pu être récupérées.",
+      "ERROR_NOT_FOUND": "Aucune donnée trouvée pour {entity}.",
+      "ERROR_UNAUTHORIZED": "Vous n'êtes pas autorisé(e) à consulter les données de {entity}.",
+      "ERROR_VALIDATION": "Les données fournies pour {entity} sont invalides."
+    },
+    "UPDATE": {
+      "SUCCESS": "{entity} a été mis(e) à jour avec succès.",
+      "ERROR": "Une erreur s'est produite lors de la mise à jour de {entity}.",
+      "ERROR_NOT_FOUND": "{entity} n'a pas été trouvé(e).",
+      "ERROR_UNAUTHORIZED": "Vous n'êtes pas autorisé(e) à mettre à jour {entity}.",
+      "ERROR_VALIDATION": "Échec de la validation lors de la mise à jour de {entity}. Veuillez vérifier les données saisies."
+    },
+    "DELETE": {
+      "SUCCESS": "{entity} a été supprimé(e) avec succès.",
+      "ERROR": "Une erreur s'est produite lors de la suppression de {entity}.",
+      "ERROR_NOT_FOUND": "{entity} introuvable.",
+      "ERROR_UNAUTHORIZED": "Vous n'êtes pas autorisé(e) à supprimer {entity}.",
+      "ERROR_SERVER": "Une erreur s'est produite lors de la suppression de {entity}. Veuillez réessayer."
+    }
+  },
+  "AUTH": {
+    "LOGIN": {
+      "SUCCESS": "Connexion réussie.",
+      "ERROR": "Échec de la connexion. Veuillez vérifier vos identifiants.",
+      "UNAUTHORIZED": "Identifiants invalides. Accès refusé."
+    }
+  },
+  "VALIDATION": {
+    "REQUIRED": "{field} est requis(e).",
+    "INVALID": "{field} n'est pas valide.",
+    "MIN_LENGTH": "{field} doit contenir au minimum {min} caractères.",
+    "MAX_LENGTH": "{field} doit contenir au maximum {max} caractères."
+  },
+  "ERRORS": {
+    "GENERAL": {
+      "SERVER_ERROR": "Erreur interne du serveur. Veuillez contacter le support.",
+      "SERVICE_UNAVAILABLE": "Service indisponible pour le moment.",
+      "NOT_FOUND": "La ressource demandée est introuvable.",
+      "UNAUTHORIZED": "Vous n'avez pas la permission d'accéder à cette ressource.",
+      "INVALID_INPUT": "Les données fournies sont invalides.",
+      "NO_DATA": "Aucune donnée disponible pour {entity}.",
+      "ACCESS_DENIED": "Accès refusé.",
+      "CONFLICT": "Un(e) {field} avec la valeur '{value}' existe déjà."
+    }
+  },
+  "GENERAL_MESSAGES": {
+    "LOADING": "Chargement en cours...",
+    "ACTION_SUCCESS": "L'action a été réalisée avec succès.",
+    "ACTION_ERROR": "Une erreur s'est produite lors de l'exécution de l'action.",
+    "RETRY": "Réessayer",
+    "REFRESH_DATA": "Actualiser les données",
+    "NO_RESULTS_FOUND": "Aucun résultat trouvé."
+  },
+  "KEYCLOAK": {
+    "ROLES": {
+      "ACCESS_DENIED": "Accès refusé. Rôle requis : {role}.",
+      "MISSING_ROLE": "Vous ne possédez pas les rôles nécessaires pour effectuer cette action.",
+      "ASSIGNED": "Le rôle a été attribué à {entity}."
+    },
+    "USERS": {
+      "DEACTIVATE": "Désactiver un utilisateur au lieu de le supprimer.",
+      "REACTIVATE": "Réactiver un utilisateur précédemment désactivé.",
+      "RESET_PASSWORD": "Réinitialiser le mot de passe d'un utilisateur.",
+      "ASSIGNED": "Les utilisateurs ont été affecté(s) à {entity}.",
+      "UNASSIGNED": "Les utilisateurs ont été retiré(s) de {entity}."
+    }
+  }
+}

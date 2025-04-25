@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package package.tva;
+
+import "google/protobuf/empty.proto";
+
+// ---------- TVA Entity ----------
+message TvaDto {
+  string id = 1;
+  string designation = 2;
+  double taux = 3;
+  string compteComptableVente = 4;
+  string compteComptableCollecte = 5;
+}
+
+message GetTvaByIdRequest {
+  string id = 1;
+}
+
+message TvaResponse {
+  TvaDto tva = 1;
+}
+
+message TvaListResponse {
+  repeated TvaDto tvas = 1;
+}
+
+service TvaService {
+ 
+  rpc GetTvaById(GetTvaByIdRequest) returns (TvaResponse);
+  rpc GetAllTvas(google.protobuf.Empty) returns (TvaListResponse);
+}

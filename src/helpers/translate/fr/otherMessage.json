@@ -1,0 +1,12 @@
+{
+  "PAGINATION": "Options de pagination invalides.",
+  "GENERAL": {
+    "FAILED": "Échec de la création de {entity}.",
+    "BAD_REQUEST": "Chargement...",
+    "NOT_FOUND": "Aucun(e) {entity} trouvé(e).",
+    "INVALID_ID": "ID de {entity} invalide.",
+    "UNMATCH": "Le {entity} sélectionné ne correspond à aucune donnée existante.",
+    "NOT_FOUND_MANY": "Une ou plusieurs entrées de {entity} n'ont pas été trouvées."
+  },
+  "PASSWORD_LENGTH": "Le mot de passe doit contenir exactement 6 caractères."
+}

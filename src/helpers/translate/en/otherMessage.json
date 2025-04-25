@@ -1,0 +1,24 @@
+{
+  "PAGINATION": "Invalid pagination options provided.",
+  "GENERAL": {
+    "FAILED": "Failed to create {entity}.",
+    "BAD_REQUEST": "Loading...",
+    "NOT_FOUND": "No {entity}(s) found.",
+    "INVALID_ID": "Invalid {entity} ID.",
+    "UNMATCH": "The selected {entity} does not match any existing data.",
+    "NOT_FOUND_MANY": "One or more {entity} entries were not found."
+  },
+  "EXERCISE": {
+    "FISCAL_YEAR_ALREADY_CLOSED": "The fiscal year is already closed.",
+    "FISCAL_YEAR_OVERLAP": "A fiscal year already exists within this date range."  ,
+    "FUTURE_DATE_REQUIRED": "The specified fiscal year must have future start and end dates.",
+    "END_DATE_MUST_BE_AFTER_START": "The end date must be after the start date." 
+  },
+  "USER": {
+    "NOT_FOUND": "User not found.",
+    "UNAUTHORIZED": "You are not authorized to perform this action.",
+    "UNMATCH": "The selected user does not match any existing data.",
+    "PASSWORD_LENGTH": "Password must be exactly 6 characters long.",
+    "PASSWORD_MISMATCH": "Passwords do not match."
+  }
+}
